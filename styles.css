@@ -1,0 +1,148 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(29, 17, 32);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:visited
+{
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+#page-sections-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 2000px;
+    height: 4800px;
+    background-color: rgb(67, 29, 158);
+    background: linear-gradient(to right, #5939a4, #3b119d);
+}
+
+#heading-section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    height: 600px;
+    width: 2000px;
+}
+
+#heading-section h1
+{
+    font-size: 80px;
+}
+
+#personal-info
+{
+    display: flex;
+}
+
+#personal-info p
+{
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+#section-1,
+#section-2,
+#section-3,
+#section-4,
+#section-5,
+#section-6
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 1400px;
+    border: solid;
+    border-color: aliceblue;
+    background-color: rgb(82, 61, 130);
+    color: aliceblue;
+    border-width: 10px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    box-shadow: 2px 2px 20px rgb(130, 130, 130);
+    transition: all 0.1s;
+}
+
+#section-1:hover,
+#section-2:hover,
+#section-3:hover,
+#section-4:hover,
+#section-5:hover,
+#section-6:hover
+{
+    box-shadow: 2px 2px 40px rgb(130, 130, 130);
+    background-color: rgb(73, 46, 136);
+}
+
+.title-description-technologies
+{
+    margin-right: 160px;
+    width: 500px;
+}
+
+.title-description-technologies p
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+.video-border
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-width: 8px;
+    margin-top: 30px;
+    border-color: rgb(49, 49, 49);
+    border-color: rgb(49, 49, 49);
+}
+
+.video-buttonlinks
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-buttonlinks h4
+{
+    margin-bottom: -10px;
+}
+
+.button-links
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button-links button
+{
+    color: aliceblue;
+    background-color: rgb(201, 91, 58);
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.button-links button:hover
+{
+    cursor: pointer;
+    background-color: rgb(204, 110, 81);
+}
